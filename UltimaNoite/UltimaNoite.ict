@@ -1,0 +1,4157 @@
+ctjsVersion: 5.3.1
+backups: 3
+language: typescript
+notes: /* empty */
+libs:
+  place:
+    gridX: 1024
+    gridY: 1024
+  pointer: {}
+  keyboard: {}
+  keyboard.polyfill: {}
+  pointer.polyfill: {}
+startroom: BRN4mB8QF6JmtD
+contentTypes: []
+actions:
+  - name: MoveXesq
+    methods:
+      - code: keyboard.KeyA
+        multiplier: -1
+      - code: keyboard.ArrowLeft
+        multiplier: -1
+  - name: MoveXdir
+    methods:
+      - code: keyboard.KeyD
+      - code: keyboard.ArrowRight
+  - name: MoveYcima
+    methods:
+      - code: keyboard.KeyW
+        multiplier: -1
+      - code: keyboard.ArrowUp
+        multiplier: -1
+  - name: MoveYbaixo
+    methods:
+      - code: keyboard.KeyS
+      - code: keyboard.ArrowDown
+  - name: Atirar
+    methods:
+      - code: pointer.Primary
+  - name: Escolha1
+    methods:
+      - code: keyboard.Digit1
+      - code: keyboard.Numpad1
+  - name: Escolha2
+    methods:
+      - code: keyboard.Digit2
+      - code: keyboard.Numpad2
+  - name: Escolha3
+    methods:
+      - code: keyboard.Digit3
+      - code: keyboard.Numpad3
+  - name: PularMelhoria
+    methods:
+      - code: keyboard.Digit0
+      - code: keyboard.Numpad0
+  - name: Pausar
+    methods:
+      - code: keyboard.KeyP
+      - code: keyboard.Escape
+scripts: []
+assets:
+  - type: folder
+    uid: 8ktBPzT497PLqw
+    colorClass: act
+    icon: room
+    name: Salas
+    lastmod: 1795040141400
+    entries:
+      - type: room
+        oncreate: ''
+        onstep: ''
+        ondraw: ''
+        onleave: ''
+        gridX: 64
+        gridY: 64
+        diagonalGrid: false
+        disableGrid: false
+        simulate: true
+        width: 1280
+        height: 720
+        restrictCamera: false
+        restrictMaxX: 1280
+        restrictMinX: 0
+        restrictMaxY: 720
+        restrictMinY: 0
+        isUi: false
+        name: rm_gameover
+        backgroundColor: 'rgba(0,0,0,0)'
+        follow: -1
+        backgrounds: []
+        copies:
+          - x: 0
+            'y': 0
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: RK69R3ddKhKp9f
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+        tiles: []
+        extends: {}
+        lastmod: 1795017368603
+        events: []
+        behaviors: []
+        extendTypes: ''
+        uid: h1Hj9RMwMhMBG3
+      - type: room
+        oncreate: ''
+        onstep: ''
+        ondraw: ''
+        onleave: ''
+        gridX: 64
+        gridY: 64
+        diagonalGrid: true
+        disableGrid: true
+        simulate: true
+        width: 1280
+        height: 720
+        restrictCamera: false
+        restrictMaxX: 1280
+        restrictMinX: 0
+        restrictMaxY: 720
+        restrictMinY: 0
+        isUi: false
+        name: rm_jogo
+        backgroundColor: '#151923'
+        follow: -1
+        backgrounds:
+          - depth: 0
+            texture: zkM6qGkzct4jnR
+            shiftX: 0
+            shiftY: 0
+            parallaxX: 1
+            parallaxY: 1
+            movementX: 0
+            movementY: 0
+            scaleX: 1
+            scaleY: 1
+            repeat: repeat
+        copies:
+          - x: 668.99993582
+            'y': 395.53942871
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 0.14705906
+              'y': 0.18359274
+            rotation: 0
+            uid: 489p9JKMb6NGWT
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 0
+            'y': 0
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: j1P8f6c1cnnn97
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 0
+            'y': 0
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: 1bqjJwgwt7pWJ3
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 402.5
+            'y': 75
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 25.15625
+              'y': 4.6875
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 641
+            'y': 152
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 1.5
+              'y': 1.5
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 872
+            'y': 149
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 1.125
+              'y': 1.5625
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 161.5
+            'y': 280.5
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 3.09375
+              'y': 2.03125
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 211
+            'y': 309.5
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 2.8125
+              'y': 1.96875
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 210
+            'y': 637
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 13.125
+              'y': 5.1875
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 520
+            'y': 668.5
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 2.875
+              'y': 1.96875
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 1187.79998779
+            'y': 558.00001717
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 2.36249924
+              'y': 1.8124989299999998
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 1176.5
+            'y': 601.5
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 2.84375
+              'y': 2.46875
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 1149.5
+            'y': 662
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 2.84375
+              'y': 2.6875
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 1093.5
+            'y': 658.5
+            opacity: 0.07
+            tint: 16777215
+            scale:
+              x: 0.90625
+              'y': 3.78125
+            rotation: 0
+            uid: h961925Nwm5qNb
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+        tiles: []
+        extends: {}
+        lastmod: 1795463851831
+        events:
+          - eventKey: OnRoomStart
+            code: |
+
+              sounds.stop('musica_jogo');
+
+              sounds.play('musica_jogo', {
+                  loop: true,
+                  volume: 0.05,
+                  singleInstance: true
+              });
+            arguments: {}
+            lib: core
+          - eventKey: OnRoomEnd
+            code: |
+
+              sounds.stop('musica_jogo');
+            arguments: {}
+            lib: core
+        behaviors: []
+        extendTypes: ''
+        uid: NPHtjnNTcBQ19B
+      - type: room
+        oncreate: ''
+        onstep: ''
+        ondraw: ''
+        onleave: ''
+        gridX: 64
+        gridY: 64
+        diagonalGrid: false
+        disableGrid: false
+        simulate: true
+        width: 1280
+        height: 720
+        restrictCamera: false
+        restrictMaxX: 1280
+        restrictMinX: 0
+        restrictMaxY: 720
+        restrictMinY: 0
+        isUi: false
+        name: rm_menu
+        backgroundColor: 'rgba(0,0,0,0)'
+        follow: -1
+        backgrounds: []
+        copies:
+          - x: 0
+            'y': 0
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: Gh8jPp9J1L7mfq
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+        tiles: []
+        extends: {}
+        lastmod: 1795017368425
+        events: []
+        behaviors: []
+        extendTypes: ''
+        uid: BRN4mB8QF6JmtD
+  - type: folder
+    uid: fmJhcBTtgcngGg
+    colorClass: act
+    icon: texture
+    name: Texturas
+    lastmod: 1795040210690
+    entries:
+      - lastmod: 1794508476780
+        type: texture
+        name: tex_cenario_urbano
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 640
+          - 360
+        marginx: 0
+        marginy: 0
+        imgWidth: 1280
+        imgHeight: 720
+        width: 1280
+        height: 720
+        offx: 0
+        offy: 0
+        origname: izkM6qGkzct4jnR.png
+        shape: rect
+        left: 640
+        right: 640
+        top: 360
+        bottom: 360
+        uid: zkM6qGkzct4jnR
+        padding: 1
+        isBlank: false
+        source: 'C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\img\Cenário.png'
+        tiled: true
+      - lastmod: 1794250325732
+        type: texture
+        name: tex_bullet
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 16
+          - 16
+        marginx: 0
+        marginy: 0
+        imgWidth: 32
+        imgHeight: 32
+        width: 32
+        height: 32
+        offx: 0
+        offy: 0
+        origname: i3CnmjDpf4k3Pw3.png
+        shape: rect
+        left: 16
+        right: 13
+        top: 5
+        bottom: 5
+        uid: 3CnmjDpf4k3Pw3
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\img\tex_bullet.png
+        r: 16
+      - lastmod: 1794250355494
+        type: texture
+        name: tex_coin
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 16
+          - 16
+        marginx: 0
+        marginy: 0
+        imgWidth: 32
+        imgHeight: 32
+        width: 32
+        height: 32
+        offx: 0
+        offy: 0
+        origname: i6d7TTqMzbC8rR5.png
+        shape: circle
+        left: 16
+        right: 16
+        top: 16
+        bottom: 16
+        uid: 6d7TTqMzbC8rR5
+        padding: 1
+        isBlank: false
+        source: 'C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\img\tex_coin.png'
+        r: 13
+      - lastmod: 1794250422384
+        type: texture
+        name: tex_medkit
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 16
+          - 16
+        marginx: 0
+        marginy: 0
+        imgWidth: 32
+        imgHeight: 32
+        width: 32
+        height: 32
+        offx: 0
+        offy: 0
+        origname: iwhJ4Nbdbzc5Pm5.png
+        shape: rect
+        left: 12
+        right: 12
+        top: 12
+        bottom: 12
+        uid: whJ4Nbdbzc5Pm5
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\img\tex_medkit.png
+      - lastmod: 1795002723687
+        type: texture
+        name: Zumbi
+        untill: 0
+        grid:
+          - 4
+          - 1
+        axis:
+          - 266
+          - 325
+        marginx: 0
+        marginy: 0
+        imgWidth: 2172
+        imgHeight: 724
+        width: 543
+        height: 724
+        offx: 0
+        offy: 0
+        origname: ig4J3wD789fdHjC.png
+        shape: circle
+        left: 151
+        right: 168
+        top: 339
+        bottom: 264
+        uid: g4J3wD789fdHjC
+        padding: 1
+        isBlank: false
+        source: 'C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\img\Zumbi.png'
+        stripPoints:
+          - x: 0
+            'y': -360
+          - x: 127
+            'y': -245
+          - x: 113
+            'y': 268
+          - x: -149
+            'y': 265
+          - x: -180
+            'y': -338
+        closedStrip: true
+        r: 302
+      - lastmod: 1794956686296
+        type: texture
+        name: Soldado
+        untill: 4
+        grid:
+          - 4
+          - 1
+        axis:
+          - 271
+          - 362
+        marginx: 0
+        marginy: 0
+        imgWidth: 2172
+        imgHeight: 724
+        width: 543
+        height: 724
+        offx: 0
+        offy: 0
+        origname: iG365f6kHR8KwP8.png
+        shape: circle
+        left: 126
+        right: 126
+        top: 338
+        bottom: 273
+        uid: G365f6kHR8KwP8
+        padding: 1
+        isBlank: false
+        source: 'C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\img\Soldado.png'
+        r: 279
+        stripPoints:
+          - x: 5
+            'y': -346
+          - x: 127
+            'y': -69
+          - x: 79
+            'y': 325
+          - x: -77
+            'y': 322
+          - x: -145
+            'y': -67
+        closedStrip: true
+      - lastmod: 1794250364018
+        type: texture
+        name: tex_player
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 16
+          - 16
+        marginx: 0
+        marginy: 0
+        imgWidth: 32
+        imgHeight: 32
+        width: 32
+        height: 32
+        offx: 0
+        offy: 0
+        origname: ik9QwL7rngqPDhk.png
+        shape: circle
+        left: 16
+        right: 16
+        top: 16
+        bottom: 16
+        uid: k9QwL7rngqPDhk
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\img\tex_player.png
+        r: 16
+      - lastmod: 1794250377150
+        type: texture
+        name: tex_zombie
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 16
+          - 16
+        marginx: 0
+        marginy: 0
+        imgWidth: 32
+        imgHeight: 32
+        width: 32
+        height: 32
+        offx: 0
+        offy: 0
+        origname: i9BrRzpMzmwL4Gq.png
+        shape: circle
+        left: 16
+        right: 16
+        top: 16
+        bottom: 16
+        uid: 9BrRzpMzmwL4Gq
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\img\tex_zombie.png
+        r: 12
+      - lastmod: 1794957058680
+        type: texture
+        name: tex_colisao
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 16
+          - 16
+        marginx: 0
+        marginy: 0
+        imgWidth: 32
+        imgHeight: 32
+        width: 32
+        height: 32
+        offx: 0
+        offy: 0
+        origname: iPd8JThdqrm5LQq.png
+        shape: rect
+        left: 16
+        right: 16
+        top: 16
+        bottom: 16
+        uid: Pd8JThdqrm5LQq
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\img\tex_colisao.png
+        stripPoints:
+          - x: 0
+            'y': -16
+          - x: 17.333333333333332
+            'y': 1.416666666666667
+          - x: 9
+            'y': 13
+          - x: -9
+            'y': 13
+          - x: -15
+            'y': -5
+        closedStrip: true
+        r: 5
+      - lastmod: 1794509799874
+        type: texture
+        name: Cenário
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 0
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 1280
+        imgHeight: 720
+        width: 1280
+        height: 720
+        offx: 0
+        offy: 0
+        origname: iQtHmT8D9bNff8D.png
+        shape: rect
+        left: 0
+        right: 1280
+        top: 0
+        bottom: 720
+        uid: QtHmT8D9bNff8D
+        padding: 1
+        isBlank: false
+        source: 'C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\img\Cenário.png'
+  - type: folder
+    uid: DwfPLQhch486JJ
+    colorClass: act
+    icon: volume-2
+    name: Sons
+    lastmod: 1795040271494
+    entries:
+      - name: som_dano
+        uid: LQ8pjJngDPBQzH
+        type: sound
+        lastmod: 1794506876635
+        preload: true
+        variants:
+          - uid: p2jKp9k9218JFz
+            source: >-
+              C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\snd\som_dano.wav
+        distortion:
+          enabled: false
+          min: 0
+          max: 1
+        pitch:
+          enabled: false
+          min: 0
+          max: 1
+        reverb:
+          enabled: false
+          decayMin: 2
+          decayMax: 2
+          secondsMin: 2
+          secondsMax: 3
+          reverse: false
+        volume:
+          enabled: false
+          min: 0
+          max: 1
+        eq:
+          enabled: false
+          bands:
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+        panning:
+          refDistance: 0.5
+          rolloffFactor: 1
+      - name: som_medkit
+        uid: tJPD2tp5MT6rtL
+        type: sound
+        lastmod: 1794507579675
+        preload: true
+        variants:
+          - uid: 58wDpkH18JzDrG
+            source: >-
+              C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\snd\som_medkit.wav
+        distortion:
+          enabled: false
+          min: 0
+          max: 1
+        pitch:
+          enabled: false
+          min: 0
+          max: 1
+        reverb:
+          enabled: false
+          decayMin: 2
+          decayMax: 2
+          secondsMin: 2
+          secondsMax: 3
+          reverse: false
+        volume:
+          enabled: false
+          min: 0
+          max: 1
+        eq:
+          enabled: false
+          bands:
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+        panning:
+          refDistance: 0.5
+          rolloffFactor: 1
+      - name: som_tiro
+        uid: Hj7tpW3P5tH85W
+        type: sound
+        lastmod: 1794506327967
+        preload: true
+        variants:
+          - uid: w3n7CKMqH4LLrb
+            source: >-
+              C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\snd\som_tiro.wav
+        distortion:
+          enabled: false
+          min: 0
+          max: 1
+        pitch:
+          enabled: false
+          min: 0
+          max: 1
+        reverb:
+          enabled: false
+          decayMin: 2
+          decayMax: 2
+          secondsMin: 2
+          secondsMax: 3
+          reverse: false
+        volume:
+          enabled: false
+          min: 0
+          max: 1
+        eq:
+          enabled: false
+          bands:
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+        panning:
+          refDistance: 0.5
+          rolloffFactor: 1
+      - name: som_morte_zumbi
+        uid: n51Mb5fR3cqTMp
+        type: sound
+        lastmod: 1794506656851
+        preload: true
+        variants:
+          - uid: WMhG9ffbp8tFGT
+            source: >-
+              C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\snd\som_morte_zumbi.wav
+        distortion:
+          enabled: false
+          min: 0
+          max: 1
+        pitch:
+          enabled: false
+          min: 0
+          max: 1
+        reverb:
+          enabled: false
+          decayMin: 2
+          decayMax: 2
+          secondsMin: 2
+          secondsMax: 3
+          reverse: false
+        volume:
+          enabled: false
+          min: 0
+          max: 0.01
+        eq:
+          enabled: false
+          bands:
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+        panning:
+          refDistance: 0.5
+          rolloffFactor: 1
+      - name: som_moeda
+        uid: W6bKLRNtm7wr9t
+        type: sound
+        lastmod: 1794506306364
+        preload: true
+        variants:
+          - uid: GkhqQbQ6MHr1j1
+            source: >-
+              C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\snd\som_moeda.wav
+        distortion:
+          enabled: false
+          min: 0
+          max: 1
+        pitch:
+          enabled: false
+          min: 0
+          max: 1
+        reverb:
+          enabled: false
+          decayMin: 2
+          decayMax: 2
+          secondsMin: 2
+          secondsMax: 3
+          reverse: false
+        volume:
+          enabled: false
+          min: 0
+          max: 1
+        eq:
+          enabled: false
+          bands:
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+        panning:
+          refDistance: 0.5
+          rolloffFactor: 1
+      - name: musica_jogo
+        uid: 99Wj6gR14CRJtk
+        type: sound
+        lastmod: 1795397410474
+        preload: true
+        variants:
+          - uid: 99p4bwh9FzqPNJ
+            source: >-
+              C:\Users\sett2\ct.js\Projects\UltimaNoite\UltimaNoite\snd\musica_jogo.wav
+        distortion:
+          enabled: false
+          min: 0
+          max: 1
+        pitch:
+          enabled: false
+          min: 0
+          max: 1
+        reverb:
+          enabled: false
+          decayMin: 2
+          decayMax: 2
+          secondsMin: 2
+          secondsMax: 3
+          reverse: false
+        volume:
+          enabled: false
+          min: 0
+          max: 1
+        eq:
+          enabled: false
+          bands:
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+            - min: -1
+              max: 1
+        panning:
+          refDistance: 0.5
+          rolloffFactor: 1
+  - type: folder
+    uid: bn4JMkNGM2J25c
+    colorClass: act
+    icon: template
+    name: Template
+    lastmod: 1795040328349
+    entries:
+      - type: template
+        baseClass: AnimatedSprite
+        name: Jogador
+        depth: 0
+        texture: G365f6kHR8KwP8
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: |
+
+              if (rooms.current.paused) {
+                  this.hspeed = 0;
+                  this.vspeed = 0;
+                  return;
+              }
+
+              if (this.vida <= 0) {
+                  this.hspeed = 0;
+                  this.vspeed = 0;
+
+                  if (this.animando) {
+                      this.gotoAndStop(0);
+                      this.animando = false;
+                  }
+
+                  return;
+              }
+
+              const dx = actions.MoveXesq.value +
+                         actions.MoveXdir.value;
+
+              const dy = actions.MoveYcima.value +
+                         actions.MoveYbaixo.value;
+
+              const distancia = Math.hypot(dx, dy);
+
+              if (distancia > 0) {
+                  this.hspeed = dx / distancia * this.velocidade;
+                  this.vspeed = dy / distancia * this.velocidade;
+              } else {
+                  this.hspeed = 0;
+                  this.vspeed = 0;
+              }
+
+              this.moveSmart('CenarioSolido');
+
+              this.x = Math.max(26, Math.min(1254, this.x));
+              this.y = Math.max(26, Math.min(694, this.y));
+
+              const angulo = u.pointDirection(
+                  this.x,
+                  this.y,
+                  pointer.x,
+                  pointer.y
+              );
+
+              this.angle = angulo + 90;
+
+              if (actions.Atirar.pressed) {
+                  const tiro = templates.copy(
+                      'Projetil',
+                      this.x,
+                      this.y
+                  );
+
+                  sounds.play('som_tiro', {
+                      volume: 0.05
+                  });
+
+                  tiro.dano = this.dano;
+                  tiro.speed = this.velocidadeProjetil;
+                  tiro.direction = angulo;
+                  tiro.angle = angulo;
+              }
+
+              const andando = Math.hypot(
+                  this.hspeed,
+                  this.vspeed
+              ) > 1;
+
+              if (andando) {
+                  if (!this.animando) {
+                      this.gotoAndPlay(0);
+                      this.animando = true;
+                  }
+              } else if (this.animando) {
+                  this.gotoAndStop(0);
+                  this.animando = false;
+              }
+
+              const agoraVisual = Date.now();
+
+              if (agoraVisual < this.piscarAte) {
+                  const fase = Math.floor(agoraVisual / 70) % 2;
+                  this.tint = fase === 0 ? 0xFF5555 : 0xFFFFFF;
+              } else {
+                  this.tint = 0xFFFFFF;
+              }
+            arguments: {}
+          - eventKey: OnCreate
+            code: |
+
+              this.vida = 100;
+              this.vidaMaxima = 100;
+              this.velocidade = 240;
+              this.dano = 20;
+              this.velocidadeProjetil = 500;
+              this.campoVisao = 0;
+
+              this.moedas = 0;
+              this.pontos = 0;
+              this.gameOverRegistrado = false;
+
+              this.hspeed = 0;
+              this.vspeed = 0;
+
+              this.scale.set(0.09);
+              this.animationSpeed = 0.12;
+              this.loop = true;
+              this.gotoAndStop(0);
+
+              this.animando = false;
+              this.angle = 0;
+              this.tint = 0xFFFFFF;
+
+              this.piscarAte = 0;
+              this.duracaoPiscar = 180;
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1795397493726
+        uid: 489p9JKMb6NGWT
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: Text
+        name: TelaMenu
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnCreate
+            code: |
+
+              this.text = '';
+
+              this.painel = new PIXI.Container();
+              this.addChild(this.painel);
+
+              this.criarTexto = (conteudo, tamanho, cor, x, y) => {
+                  const txt = new PIXI.Text(conteudo, {
+                      fontFamily: 'Arial',
+                      fontSize: tamanho,
+                      fontWeight: 'bold',
+                      fill: cor,
+                      align: 'center'
+                  });
+
+                  txt.anchor.set(0.5);
+                  txt.x = x;
+                  txt.y = y;
+
+                  this.painel.addChild(txt);
+                  return txt;
+              };
+
+              this.criarBotao = (nome, x, y, largura, acao) => {
+                  const botao = new PIXI.Container();
+
+                  botao.x = x;
+                  botao.y = y;
+
+                  const fundo = new PIXI.Graphics();
+                  fundo.beginFill(0x293548);
+                  fundo.lineStyle(2, 0x536985);
+                  fundo.drawRoundedRect(0, 0, largura, 58, 10);
+                  fundo.endFill();
+
+                  botao.addChild(fundo);
+
+                  const texto = new PIXI.Text(nome, {
+                      fontFamily: 'Arial',
+                      fontSize: 22,
+                      fontWeight: 'bold',
+                      fill: 0xFFFFFF
+                  });
+
+                  texto.anchor.set(0.5);
+                  texto.x = largura / 2;
+                  texto.y = 29;
+
+                  botao.addChild(texto);
+
+                  botao.eventMode = 'static';
+                  botao.cursor = 'pointer';
+                  botao.hitArea = new PIXI.Rectangle(
+                      0, 0, largura, 58
+                  );
+
+                  botao.on('pointertap', acao);
+
+                  this.painel.addChild(botao);
+                  return botao;
+              };
+
+              this.titulo = this.criarTexto(
+                  'ULTIMA NOITE',
+                  58,
+                  0xFFFFFF,
+                  640,
+                  160
+              );
+
+              this.subtitulo = this.criarTexto(
+                  'SOBREVIVA A NOITE',
+                  20,
+                  0xE9BD6E,
+                  640,
+                  215
+              );
+
+              this.conteudo = this.criarTexto(
+                  '',
+                  22,
+                  0xFFFFFF,
+                  640,
+                  335
+              );
+
+              this.conteudo.style.wordWrap = true;
+              this.conteudo.style.wordWrapWidth = 850;
+
+              this.btnJogar = this.criarBotao(
+                  'JOGAR',
+                  490, 290, 300,
+                  () => {
+                      try {
+                          rooms.switch('rm_jogo');
+                      } catch (erro) {
+                          console.error('Erro ao abrir o jogo:', erro);
+                      }
+                  }
+              );
+
+              this.btnComo = this.criarBotao(
+                  'COMO JOGAR',
+                  490, 365, 300,
+                  () => this.mostrarPagina('ajuda')
+              );
+
+              this.btnCreditos = this.criarBotao(
+                  'CREDITOS',
+                  490, 440, 300,
+                  () => this.mostrarPagina('creditos')
+              );
+
+              this.btnVoltar = this.criarBotao(
+                  'VOLTAR',
+                  490, 520, 300,
+                  () => this.mostrarPagina('inicio')
+              );
+
+              this.mostrarPagina = pagina => {
+                  const inicio = pagina === 'inicio';
+
+                  this.btnJogar.visible = inicio;
+                  this.btnComo.visible = inicio;
+                  this.btnCreditos.visible = inicio;
+                  this.btnVoltar.visible = !inicio;
+
+                  this.conteudo.visible = !inicio;
+
+                  if (pagina === 'ajuda') {
+                      this.conteudo.text =
+                          'WASD OU SETAS - MOVIMENTAR\n' +
+                          'MOUSE - MIRAR\n' +
+                          'CLIQUE ESQUERDO - ATIRAR\n' +
+                          'P OU ESC - PAUSAR\n' +
+                          '1, 2 OU 3 - COMPRAR MELHORIA\n' +
+                          '0 - PULAR A LOJA\n\n' +
+                          'ELIMINE ZUMBIS, COLETE MOEDAS\n' +
+                          'E KITS MEDICOS PARA SOBREVIVER.';
+                  }
+
+                  if (pagina === 'creditos') {
+                      this.conteudo.text =
+                          '\n\nCREDITOS\n\n' +
+                          'ULTIMA NOITE - 2026\n\n' +
+                          'DESENVOLVIMENTO:\n' +
+                          'Bernardo Dutra Aperibense Ottoni\n' +
+                          'Bruno Oliveira de Souza\n' +
+                          'Nicolas Reis Xavier Silva\n' +
+                          'Alceu Vasconcellos Botelho dos Reis\n\n' +
+                          'DESENVOLVIDO COM CT.JS 5.3.1';
+                  }
+              };
+
+              this.mostrarPagina('inicio');
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1795397542707
+        uid: Gh8jPp9J1L7mfq
+        behaviors: []
+        extendTypes: ''
+        defaultText: ''
+        textStyle: 2KWWMJk43hLqWJ
+      - type: template
+        baseClass: AnimatedSprite
+        name: Obstaculo
+        depth: 0
+        texture: Pd8JThdqrm5LQq
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnCreate
+            code: |
+
+              this.visible = false;
+              this.hspeed = 0;
+              this.vspeed = 0;
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: CenarioSolido
+          'editor:myCollidingCGroups': []
+        lastmod: 1795397482523
+        uid: h961925Nwm5qNb
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: Text
+        name: Hud
+        depth: 1000
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: |
+
+              if (actions.Pausar && actions.Pausar.pressed) {
+                  this.alternarPausa();
+              }
+            arguments: {}
+          - eventKey: OnDraw
+            code: |
+
+              const jogador = (templates.list['Jogador'] || [])
+                  .find(j => templates.valid(j));
+
+              if (!jogador) {
+                  this.textoVida.text = '';
+                  this.textoInfo.text = '';
+
+                  this.graficosVida.clear();
+                  this.barrasZumbis.clear();
+
+                  this.lojaContainer.visible = false;
+                  return;
+              }
+
+              const gerenciador = (
+                  templates.list['GerenciadorOndas'] || []
+              ).find(g => templates.valid(g));
+
+              if (
+                  jogador.vida <= 0 &&
+                  !jogador.gameOverRegistrado
+              ) {
+                  jogador.gameOverRegistrado = true;
+
+                  const pontos = jogador.pontos;
+                  const onda = gerenciador ? gerenciador.onda : 0;
+
+                  let recorde = 0;
+
+                  try {
+                      recorde = Number(
+                          localStorage.getItem(
+                              'UltimaNoite_recorde'
+                          ) || 0
+                      );
+
+                      if (pontos > recorde) {
+                          recorde = pontos;
+
+                          localStorage.setItem(
+                              'UltimaNoite_recorde',
+                              String(recorde)
+                          );
+                      }
+                  } catch (erro) {
+                      recorde = Math.max(recorde, pontos);
+                      console.warn('Erro ao salvar recorde:', erro);
+                  }
+
+                  ct.ultimaNoiteResultado = {
+                      pontos,
+                      onda,
+                      recorde
+                  };
+
+                  rooms.switch('rm_gameover');
+                  return;
+              }
+
+              const zumbis = templates.list['Zumbi'] || [];
+
+              const zumbisVivos = zumbis.filter(
+                  z => templates.valid(z) &&
+                       !z.kill &&
+                       !z.morrendo &&
+                       z.vida > 0
+              );
+
+              const inimigos = zumbisVivos.length;
+
+              const vida = Math.max(
+                  0,
+                  Math.ceil(jogador.vida)
+              );
+
+              const vidaMaxima = Math.max(
+                  1,
+                  jogador.vidaMaxima
+              );
+
+              const percentualVida = Math.max(
+                  0,
+                  Math.min(1, vida / vidaMaxima)
+              );
+
+              const ondaAtual = gerenciador
+                  ? gerenciador.onda
+                  : 0;
+
+              const ondaVinheta = Math.max(1, ondaAtual);
+              const nivelVisao = Math.max(
+                  0,
+                  Number(jogador.campoVisao) || 0
+              );
+
+              this.spriteVinheta.x = jogador.x - this.x;
+              this.spriteVinheta.y = jogador.y - this.y;
+
+              if (
+                  ondaVinheta !== this.ultimaOndaVinheta ||
+                  nivelVisao !== this.ultimoNivelVisao
+              ) {
+                  this.atualizarVinheta(
+                      ondaVinheta,
+                      nivelVisao
+                  );
+              }
+
+              this.textoVida.text =
+                  'VIDA: ' + vida + '/' + vidaMaxima;
+
+              this.graficosVida.clear();
+
+              this.graficosVida.beginFill(0x542B35);
+              this.graficosVida.drawRoundedRect(
+                  5,
+                  34,
+                  250,
+                  18,
+                  6
+              );
+              this.graficosVida.endFill();
+
+              if (percentualVida > 0) {
+                  const cor = percentualVida <= 0.30
+                      ? 0xF59E42
+                      : 0xEF5365;
+
+                  this.graficosVida.beginFill(cor);
+                  this.graficosVida.drawRoundedRect(
+                      5,
+                      34,
+                      250 * percentualVida,
+                      18,
+                      6
+                  );
+                  this.graficosVida.endFill();
+              }
+
+              this.textoInfo.text =
+                  'PONTOS: ' + jogador.pontos +
+                  '\nMOEDAS: ' + jogador.moedas +
+                  '\nONDA: ' + ondaAtual +
+                  '\nINIMIGOS: ' + inimigos;
+
+              this.barrasZumbis.clear();
+
+              for (const zumbi of zumbisVivos) {
+                  const vidaMaxZumbi = Math.max(
+                      1,
+                      zumbi.vidaMaxima
+                  );
+
+                  const percentual = Math.max(
+                      0,
+                      Math.min(
+                          1,
+                          zumbi.vida / vidaMaxZumbi
+                      )
+                  );
+
+                  const x = zumbi.x - this.x;
+
+                  const y =
+                      zumbi.y -
+                      this.y -
+                      this.deslocamentoBarraZumbi;
+
+                  const largura = this.larguraBarraZumbi;
+                  const altura = this.alturaBarraZumbi;
+
+                  let cor = 0x72D46D;
+
+                  if (percentual <= 0.30) {
+                      cor = 0xEF5961;
+                  } else if (percentual <= 0.60) {
+                      cor = 0xEFBB4E;
+                  }
+
+                  this.barrasZumbis.beginFill(0x512B34);
+                  this.barrasZumbis.drawRoundedRect(
+                      x - largura / 2,
+                      y,
+                      largura,
+                      altura,
+                      3
+                  );
+                  this.barrasZumbis.endFill();
+
+                  if (percentual > 0) {
+                      this.barrasZumbis.beginFill(cor);
+
+                      this.barrasZumbis.drawRoundedRect(
+                          x - largura / 2,
+                          y,
+                          largura * percentual,
+                          altura,
+                          3
+                      );
+
+                      this.barrasZumbis.endFill();
+                  }
+              }
+
+              const lojaAberta = Boolean(
+                  gerenciador &&
+                  gerenciador.estado === 'escolha'
+              );
+
+              this.lojaContainer.visible = lojaAberta;
+
+              if (lojaAberta) {
+                  this.fundoLoja.clear();
+
+                  this.fundoLoja.beginFill(
+                      0x080D17,
+                      0.45
+                  );
+
+                  this.fundoLoja.drawRect(
+                      -this.x,
+                      -this.y,
+                      1280,
+                      720
+                  );
+
+                  this.fundoLoja.endFill();
+
+                  this.tituloLoja.text =
+                      'ONDA ' + ondaAtual +
+                      ' CONCLUIDA!\nLOJA DE MELHORIAS';
+
+                  this.saldoLoja.text =
+                      'SALDO: ' +
+                      jogador.moedas +
+                      ' MOEDAS';
+
+                  this.graficosLoja.clear();
+
+                  const opcoes =
+                      gerenciador.opcoesMelhoria || [];
+
+                  for (let i = 0; i < 3; i++) {
+                      const melhoria = opcoes[i];
+
+                      if (!melhoria) {
+                          this.cardsLoja[i].text = '';
+                          continue;
+                      }
+
+                      const x = 235 + i * 260;
+                      const y = 270;
+
+                      const podeComprar =
+                          jogador.moedas >= melhoria.preco;
+
+                      const corFundo = podeComprar
+                          ? 0x293143
+                          : 0x353039;
+
+                      const corBorda = podeComprar
+                          ? 0xE6BE64
+                          : 0x76505A;
+
+                      this.graficosLoja.beginFill(corFundo);
+                      this.graficosLoja.drawRoundedRect(
+                          x,
+                          y,
+                          240,
+                          180,
+                          12
+                      );
+                      this.graficosLoja.endFill();
+
+                      this.graficosLoja.lineStyle(
+                          2,
+                          corBorda
+                      );
+
+                      this.graficosLoja.drawRoundedRect(
+                          x,
+                          y,
+                          240,
+                          180,
+                          12
+                      );
+
+                      this.graficosLoja.lineStyle(0);
+
+                      const status = podeComprar
+                          ? 'DISPONIVEL'
+                          : 'SEM MOEDAS';
+
+                      this.cardsLoja[i].text =
+                          '[' + (i + 1) + ']' +
+                          '\n\n' +
+                          melhoria.nome +
+                          '\n\n' +
+                          melhoria.preco + ' MOEDAS' +
+                          '\n' +
+                          status;
+                  }
+
+                  this.instrucaoLoja.text =
+                      'PRESSIONE 1, 2 OU 3 PARA COMPRAR' +
+                      '\nPRESSIONE 0 PARA PULAR';
+              }
+            arguments: {}
+            lib: core
+          - eventKey: OnCreate
+            code: |
+
+              this.text = '';
+
+              this.criarTexto = (
+                  tamanho,
+                  cor,
+                  alinhamento = 'left'
+              ) => {
+                  const estilo = new PIXI.TextStyle({
+                      fontFamily: 'Arial',
+                      fontSize: tamanho,
+                      fontWeight: 'bold',
+                      fill: cor
+                  });
+
+                  estilo.align = alinhamento;
+
+                  const texto = new PIXI.Text('', estilo);
+                  this.addChild(texto);
+                  return texto;
+              };
+
+              this.graficosVida = new PIXI.Graphics();
+              this.addChild(this.graficosVida);
+
+              this.textoVida = this.criarTexto(22, 0xFFFFFF);
+              this.textoVida.x = 5;
+              this.textoVida.y = 0;
+
+              this.textoInfo = this.criarTexto(
+                  20,
+                  0xFFFFFF,
+                  'right'
+              );
+
+              this.textoInfo.anchor.set(1, 0);
+              this.textoInfo.x = 1050;
+              this.textoInfo.y = 0;
+
+              this.barrasZumbis = new PIXI.Graphics();
+              this.addChild(this.barrasZumbis);
+
+              this.lojaContainer = new PIXI.Container();
+              this.addChild(this.lojaContainer);
+
+              this.fundoLoja = new PIXI.Graphics();
+              this.lojaContainer.addChild(this.fundoLoja);
+
+              this.graficosLoja = new PIXI.Graphics();
+              this.lojaContainer.addChild(this.graficosLoja);
+
+              this.criarTextoLoja = (
+                  tamanho,
+                  cor,
+                  largura = 220
+              ) => {
+                  const estilo = new PIXI.TextStyle({
+                      fontFamily: 'Arial',
+                      fontSize: tamanho,
+                      fontWeight: 'bold',
+                      fill: cor,
+                      wordWrap: true,
+                      wordWrapWidth: largura
+                  });
+
+                  estilo.align = 'center';
+
+                  const texto = new PIXI.Text('', estilo);
+                  texto.anchor.set(0.5);
+
+                  this.lojaContainer.addChild(texto);
+                  return texto;
+              };
+
+              this.tituloLoja = this.criarTextoLoja(
+                  30, 0xFFFFFF, 800
+              );
+
+              this.tituloLoja.x = 615;
+              this.tituloLoja.y = 155;
+
+              this.saldoLoja = this.criarTextoLoja(
+                  22, 0xFACC15, 600
+              );
+
+              this.saldoLoja.x = 615;
+              this.saldoLoja.y = 225;
+
+              this.cardsLoja = [];
+
+              for (let i = 0; i < 3; i++) {
+                  const texto = this.criarTextoLoja(
+                      19,
+                      0xFFFFFF,
+                      215
+                  );
+
+                  texto.x = 355 + i * 260;
+                  texto.y = 355;
+
+                  this.cardsLoja.push(texto);
+              }
+
+              this.instrucaoLoja = this.criarTextoLoja(
+                  19, 0xD1D5DB, 900
+              );
+
+              this.instrucaoLoja.x = 615;
+              this.instrucaoLoja.y = 525;
+              this.lojaContainer.visible = false;
+
+              this.larguraBarraZumbi = 46;
+              this.alturaBarraZumbi = 7;
+              this.deslocamentoBarraZumbi = 43;
+
+              rooms.current.paused = false;
+
+              this.inicioPausa = 0;
+              this.animacoesPausadas = [];
+              this.transicaoPausaAtiva = false;
+
+              this.telaPausa = new PIXI.Container();
+              this.addChild(this.telaPausa);
+
+              const fundoPausa = new PIXI.Graphics();
+
+              fundoPausa.beginFill(0x080D17, 0.65);
+
+              fundoPausa.drawRect(
+                  -this.x,
+                  -this.y,
+                  1280,
+                  720
+              );
+
+              fundoPausa.endFill();
+
+              fundoPausa.eventMode = 'static';
+
+              fundoPausa.hitArea = new PIXI.Rectangle(
+                  -this.x,
+                  -this.y,
+                  1280,
+                  720
+              );
+
+              this.telaPausa.addChild(fundoPausa);
+
+              const sombraPausa = new PIXI.Graphics();
+
+              sombraPausa.beginFill(0x000000, 0.45);
+              sombraPausa.drawRoundedRect(
+                  348, 153, 550, 440, 18
+              );
+              sombraPausa.endFill();
+
+              this.telaPausa.addChild(sombraPausa);
+
+              const painelPausa = new PIXI.Graphics();
+
+              painelPausa.lineStyle(2, 0x536985);
+              painelPausa.beginFill(0x171F2C, 0.98);
+              painelPausa.drawRoundedRect(
+                  340, 145, 550, 440, 18
+              );
+              painelPausa.endFill();
+
+              this.telaPausa.addChild(painelPausa);
+
+              const faixaPausa = new PIXI.Graphics();
+
+              faixaPausa.beginFill(0xA8323E);
+              faixaPausa.drawRoundedRect(
+                  362, 163, 506, 5, 2
+              );
+              faixaPausa.endFill();
+
+              this.telaPausa.addChild(faixaPausa);
+
+              const detalhePausa = new PIXI.Graphics();
+
+              detalhePausa.beginFill(0xA8323E);
+              detalhePausa.drawRoundedRect(
+                  340, 180, 4, 370, 2
+              );
+              detalhePausa.endFill();
+
+              this.telaPausa.addChild(detalhePausa);
+
+              const criarTextoPausa = (
+                  conteudo,
+                  tamanho,
+                  cor,
+                  x,
+                  y
+              ) => {
+                  const txt = new PIXI.Text(conteudo, {
+                      fontFamily: 'Arial',
+                      fontSize: tamanho,
+                      fontWeight: 'bold',
+                      fill: cor,
+                      align: 'center'
+                  });
+
+                  txt.anchor.set(0.5);
+                  txt.x = x;
+                  txt.y = y;
+
+                  this.telaPausa.addChild(txt);
+                  return txt;
+              };
+
+              this.textoProtocoloPausa = criarTextoPausa(
+                  'PROTOCOLO DE SOBREVIVENCIA // PAUSADO',
+                  12,
+                  0xC45A63,
+                  615,
+                  190
+              );
+
+              this.textoTituloPausa = criarTextoPausa(
+                  'JOGO PAUSADO',
+                  42,
+                  0xFFFFFF,
+                  615,
+                  230
+              );
+
+              this.textoDescricaoPausa = criarTextoPausa(
+                  'SUA SOBREVIVENCIA ESTA EM ESPERA',
+                  17,
+                  0xB9C5D5,
+                  615,
+                  290
+              );
+
+              this.textoInstrucaoPausa = criarTextoPausa(
+                  'PRESSIONE P OU ESC PARA CONTINUAR',
+                  17,
+                  0xAEB9CB,
+                  615,
+                  540
+              );
+
+              const criarBotaoPausa = (
+                  nome,
+                  y,
+                  acao,
+                  cor = 0x315F83
+              ) => {
+                  const botao = new PIXI.Container();
+
+                  botao.x = 435;
+                  botao.y = y;
+
+                  const fundo = new PIXI.Graphics();
+
+                  const desenharFundo = (corFundo, corBorda) => {
+                      fundo.clear();
+                      fundo.lineStyle(2, corBorda, 1);
+                      fundo.beginFill(corFundo);
+                      fundo.drawRoundedRect(
+                          0, 0, 360, 58, 10
+                      );
+                      fundo.endFill();
+                  };
+
+                  desenharFundo(cor, 0x536985);
+                  botao.addChild(fundo);
+
+                  const txt = new PIXI.Text(nome, {
+                      fontFamily: 'Arial',
+                      fontSize: 21,
+                      fontWeight: 'bold',
+                      fill: 0xFFFFFF
+                  });
+
+                  txt.anchor.set(0.5);
+                  txt.x = 180;
+                  txt.y = 29;
+
+                  botao.addChild(txt);
+
+                  botao.eventMode = 'static';
+                  botao.cursor = 'pointer';
+
+                  botao.hitArea = new PIXI.Rectangle(
+                      0, 0, 360, 58
+                  );
+
+                  botao.on('pointerover', () => {
+                      desenharFundo(0x42799B, 0xB83A46);
+                      txt.alpha = 1;
+                  });
+
+                  botao.on('pointerout', () => {
+                      desenharFundo(cor, 0x536985);
+                      txt.alpha = 0.9;
+                  });
+
+                  botao.on('pointerdown', () => {
+                      desenharFundo(0x263F55, 0xA8323E);
+                      botao.scale.set(0.98);
+                  });
+
+                  botao.on('pointerup', () => {
+                      desenharFundo(0x42799B, 0xB83A46);
+                      botao.scale.set(1);
+                  });
+
+                  botao.on('pointerupoutside', () => {
+                      desenharFundo(cor, 0x536985);
+                      botao.scale.set(1);
+                  });
+
+                  botao.on('pointertap', acao);
+
+                  this.telaPausa.addChild(botao);
+                  return botao;
+              };
+
+              this.botaoContinuarPausa = criarBotaoPausa(
+                  'CONTINUAR',
+                  350,
+                  () => this.continuarJogo()
+              );
+
+              this.botaoMenuPausa = criarBotaoPausa(
+                  'MENU PRINCIPAL',
+                  430,
+                  () => this.voltarMenuPausa(),
+                  0x354154
+              );
+
+              this.congelarAnimacoes = () => {
+                  this.animacoesPausadas = [];
+
+                  const tipos = ['Jogador', 'Zumbi'];
+
+                  for (const tipo of tipos) {
+                      const objetos = templates.list[tipo] || [];
+
+                      for (const objeto of objetos) {
+                          if (!templates.valid(objeto)) {
+                              continue;
+                          }
+
+                          this.animacoesPausadas.push({
+                              objeto,
+                              velocidade: objeto.animationSpeed
+                          });
+
+                          objeto.animationSpeed = 0;
+                      }
+                  }
+              };
+
+              this.restaurarAnimacoes = () => {
+                  for (const item of this.animacoesPausadas) {
+                      if (templates.valid(item.objeto)) {
+                          item.objeto.animationSpeed = item.velocidade;
+                      }
+                  }
+
+                  this.animacoesPausadas = [];
+              };
+
+              this.animarEntradaPausa = () => {
+                  const ticker = PIXI.Ticker.shared;
+
+                  if (this.atualizarAnimacaoPausa) {
+                      ticker.remove(this.atualizarAnimacaoPausa);
+                      this.atualizarAnimacaoPausa = null;
+                  }
+
+                  const elementos = [
+                      { objeto: this.textoProtocoloPausa, atraso: 2 },
+                      { objeto: this.textoTituloPausa, atraso: 3 },
+                      { objeto: this.textoDescricaoPausa, atraso: 6 },
+                      { objeto: this.botaoContinuarPausa, atraso: 9 },
+                      { objeto: this.botaoMenuPausa, atraso: 12 },
+                      { objeto: this.textoInstrucaoPausa, atraso: 15 }
+                  ];
+
+                  for (const elemento of elementos) {
+                      elemento.posicaoOriginal = elemento.objeto.y;
+                      elemento.objeto.alpha = 0;
+                      elemento.objeto.y = elemento.posicaoOriginal + 15;
+                  }
+
+                  this.telaPausa.alpha = 0;
+                  this.telaPausa.visible = true;
+
+                  let progresso = 0;
+
+                  this.atualizarAnimacaoPausa = delta => {
+                      progresso += delta;
+
+                      this.telaPausa.alpha = Math.min(
+                          1,
+                          progresso / 15
+                      );
+
+                      for (const elemento of elementos) {
+                          const tempoElemento = Math.max(
+                              0,
+                              progresso - elemento.atraso
+                          );
+
+                          const intensidade = Math.min(
+                              1,
+                              tempoElemento / 10
+                          );
+
+                          elemento.objeto.alpha = intensidade;
+
+                          elemento.objeto.y =
+                              elemento.posicaoOriginal +
+                              15 * (1 - intensidade);
+                      }
+
+                      if (progresso >= 25) {
+                          this.telaPausa.alpha = 1;
+
+                          for (const elemento of elementos) {
+                              elemento.objeto.alpha = 1;
+                              elemento.objeto.y =
+                                  elemento.posicaoOriginal;
+                          }
+
+                          ticker.remove(this.atualizarAnimacaoPausa);
+                          this.atualizarAnimacaoPausa = null;
+                      }
+                  };
+
+                  ticker.add(this.atualizarAnimacaoPausa);
+              };
+
+              this.animarSaidaPausa = aoFinalizar => {
+                  const ticker = PIXI.Ticker.shared;
+
+                  if (this.atualizarAnimacaoPausa) {
+                      ticker.remove(this.atualizarAnimacaoPausa);
+                      this.atualizarAnimacaoPausa = null;
+                  }
+
+                  let progresso = 1;
+
+                  this.atualizarAnimacaoPausa = delta => {
+                      progresso -= delta / 15;
+
+                      this.telaPausa.alpha = Math.max(
+                          0,
+                          progresso
+                      );
+
+                      if (progresso <= 0) {
+                          ticker.remove(this.atualizarAnimacaoPausa);
+                          this.atualizarAnimacaoPausa = null;
+
+                          this.telaPausa.visible = false;
+                          this.telaPausa.alpha = 1;
+
+                          aoFinalizar();
+                      }
+                  };
+
+                  ticker.add(this.atualizarAnimacaoPausa);
+              };
+
+              this.pausarJogo = () => {
+                  if (
+                      rooms.current.paused ||
+                      this.transicaoPausaAtiva
+                  ) {
+                      return;
+                  }
+
+                  sounds.pause();
+                  this.inicioPausa = Date.now();
+
+                  rooms.current.paused = true;
+                  this.congelarAnimacoes();
+                  this.animarEntradaPausa();
+              };
+
+              this.continuarJogo = () => {
+                  if (
+                      !rooms.current.paused ||
+                      this.transicaoPausaAtiva
+                  ) {
+                      return;
+                  }
+
+                  this.transicaoPausaAtiva = true;
+
+                  this.animarSaidaPausa(() => {
+                      sounds.resume();
+
+                      const duracaoPausa =
+                          Date.now() - this.inicioPausa;
+
+                      const gerenciadores =
+                          templates.list['GerenciadorOndas'] || [];
+
+                      for (const g of gerenciadores) {
+                          if (!templates.valid(g)) {
+                              continue;
+                          }
+
+                          if (g.proximaOndaEm) {
+                              g.proximaOndaEm += duracaoPausa;
+                          }
+
+                          if (g.inicioOndaEm) {
+                              g.inicioOndaEm += duracaoPausa;
+                          }
+                      }
+
+                      const zumbis = templates.list['Zumbi'] || [];
+
+                      for (const zumbi of zumbis) {
+                          if (!templates.valid(zumbi)) {
+                              continue;
+                          }
+
+                          if (zumbi.ultimoAtaque) {
+                              zumbi.ultimoAtaque += duracaoPausa;
+                          }
+
+                          if (zumbi.piscarAte) {
+                              zumbi.piscarAte += duracaoPausa;
+                          }
+                      }
+
+                      const jogadores =
+                          templates.list['Jogador'] || [];
+
+                      for (const jogador of jogadores) {
+                          if (!templates.valid(jogador)) {
+                              continue;
+                          }
+
+                          if (jogador.piscarAte) {
+                              jogador.piscarAte += duracaoPausa;
+                          }
+                      }
+
+                      this.restaurarAnimacoes();
+
+                      rooms.current.paused = false;
+                      this.transicaoPausaAtiva = false;
+                  });
+              };
+
+              this.alternarPausa = () => {
+                  if (this.transicaoPausaAtiva) {
+                      return;
+                  }
+
+                  if (rooms.current.paused) {
+                      this.continuarJogo();
+                  } else {
+                      this.pausarJogo();
+                  }
+              };
+
+              this.voltarMenuPausa = () => {
+                  if (
+                      !rooms.current.paused ||
+                      this.transicaoPausaAtiva
+                  ) {
+                      return;
+                  }
+
+                  this.transicaoPausaAtiva = true;
+
+                  this.animarSaidaPausa(() => {
+                      this.restaurarAnimacoes();
+                      rooms.current.paused = false;
+
+                      sounds.stop();
+
+                      this.transicaoPausaAtiva = false;
+                      rooms.switch('rm_menu');
+                  });
+              };
+
+              this.telaPausa.visible = false;
+              this.telaPausa.alpha = 1;
+
+              this.ultimaOndaVinheta = -1;
+              this.ultimoNivelVisao = -1;
+
+              this.canvasVinheta = document.createElement('canvas');
+              this.canvasVinheta.width = 512;
+              this.canvasVinheta.height = 512;
+
+              this.contextoVinheta =
+                  this.canvasVinheta.getContext('2d');
+
+              this.texturaVinheta = PIXI.Texture.from(
+                  this.canvasVinheta
+              );
+
+              this.spriteVinheta = new PIXI.Sprite(
+                  this.texturaVinheta
+              );
+
+              this.spriteVinheta.anchor.set(0.5);
+              this.spriteVinheta.x = 640 - this.x;
+              this.spriteVinheta.y = 360 - this.y;
+              this.spriteVinheta.width = 2560;
+              this.spriteVinheta.height = 2560;
+              this.spriteVinheta.eventMode = 'none';
+
+              this.addChildAt(this.spriteVinheta, 0);
+
+              this.atualizarVinheta = (onda, nivelVisao = 0) => {
+                  const ctx = this.contextoVinheta;
+
+                  const numeroOnda = Math.max(
+                      1,
+                      Number(onda) || 1
+                  );
+
+                  const bonusVisao = Math.max(
+                      0,
+                      Number(nivelVisao) || 0
+                  );
+
+                  const progresso = Math.min(
+                      14,
+                      numeroOnda - 1
+                  );
+
+                  // Raio do campo de visao em pixels do canvas
+                  // (1 px no canvas = 5 px na tela)
+                  const raioInterno = Math.min(
+                      95,
+                      24 + bonusVisao * 10
+                  );
+
+                  const raioExterno = Math.min(
+                      175,
+                      56 + bonusVisao * 18
+                  );
+
+                  const borda = Math.max(
+                      0.65,
+                      Math.min(
+                          0.97,
+                          0.82 + progresso * 0.012
+                      ) - Math.min(0.15, bonusVisao * 0.02)
+                  );
+
+                  const medio = borda * 0.55;
+
+                  ctx.clearRect(0, 0, 512, 512);
+
+                  const gradiente = ctx.createRadialGradient(
+                      256, 256, raioInterno,
+                      256, 256, raioExterno
+                  );
+
+                  gradiente.addColorStop(
+                      0,
+                      'rgba(2, 4, 10, 0)'
+                  );
+
+                  gradiente.addColorStop(
+                      0.55,
+                      `rgba(2, 4, 10, ${medio})`
+                  );
+
+                  gradiente.addColorStop(
+                      1,
+                      `rgba(2, 4, 10, ${borda})`
+                  );
+
+                  ctx.fillStyle = gradiente;
+                  ctx.fillRect(0, 0, 512, 512);
+
+                  this.texturaVinheta.update();
+                  this.ultimaOndaVinheta = numeroOnda;
+                  this.ultimoNivelVisao = bonusVisao;
+              };
+
+              this.atualizarVinheta(1, 0);
+
+              this.mostrarHitboxes = false;
+              this.debugHitboxes = new PIXI.Graphics();
+              this.debugHitboxes.eventMode = 'none';
+
+              this.addChild(this.debugHitboxes);
+
+              if (this.telaPausa) {
+                  const indicePausa =
+                      this.getChildIndex(this.telaPausa);
+
+                  this.setChildIndex(
+                      this.debugHitboxes,
+                      Math.max(0, indicePausa - 1)
+                  );
+              }
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1795397614729
+        uid: 1bqjJwgwt7pWJ3
+        behaviors: []
+        extendTypes: ''
+        defaultText: 'Score: 0'
+        textStyle: -1
+      - type: template
+        baseClass: Text
+        name: GerenciadorOndas
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: |
+
+              if (rooms.current.paused) {
+                  return;
+              }
+
+              const agora = Date.now();
+
+              const jogador = (templates.list['Jogador'] || [])
+                  .find(j => templates.valid(j));
+
+              if (!jogador || jogador.vida <= 0) {
+                  return;
+              }
+
+              const principal = (
+                  templates.list['GerenciadorOndas'] || []
+              ).find(g => templates.valid(g));
+
+              if (principal !== this) {
+                  return;
+              }
+
+              const embaralhar = lista => {
+                  for (let i = lista.length - 1; i > 0; i--) {
+                      const j = Math.floor(Math.random() * (i + 1));
+                      [lista[i], lista[j]] = [lista[j], lista[i]];
+                  }
+
+                  return lista;
+              };
+
+              if (this.estado === 'escolha') {
+                  let indice = -1;
+
+                  if (actions.Escolha1?.pressed) {
+                      indice = 0;
+                  } else if (actions.Escolha2?.pressed) {
+                      indice = 1;
+                  } else if (actions.Escolha3?.pressed) {
+                      indice = 2;
+                  }
+
+                  if (actions.PularMelhoria?.pressed) {
+                      this.opcoesMelhoria = [];
+                      this.estado = 'intervalo';
+                      this.proximaOndaEm = agora + this.intervaloOndas;
+                      return;
+                  }
+
+                  if (indice >= 0 && indice < this.opcoesMelhoria.length) {
+                      const melhoria = this.opcoesMelhoria[indice];
+
+                      if (jogador.moedas < melhoria.preco) {
+                          return;
+                      }
+
+                      switch (melhoria.id) {
+                          case 'dano':
+                              jogador.dano += 5;
+                              break;
+                          case 'movimento':
+                              jogador.velocidade += 20;
+                              break;
+                          case 'vida':
+                              jogador.vidaMaxima += 20;
+                              break;
+                          case 'projetil':
+                              jogador.velocidadeProjetil += 75;
+                              break;
+
+                          case 'visao':
+                              jogador.campoVisao =
+                                  (jogador.campoVisao || 0) + 1;
+                              break;
+                      }
+
+                      jogador.moedas -= melhoria.preco;
+                      this.opcoesMelhoria = [];
+                      this.estado = 'intervalo';
+                      this.proximaOndaEm = agora + this.intervaloOndas;
+                  }
+
+                  return;
+              }
+
+              const zumbisVivos = (templates.list['Zumbi'] || [])
+                  .filter(z =>
+                      templates.valid(z) &&
+                      !z.kill &&
+                      !z.morrendo &&
+                      z.vida > 0
+                  );
+
+              if (
+                  this.estado !== 'combate' &&
+                  agora >= this.proximaOndaEm
+              ) {
+                  const proximaOnda = this.onda + 1;
+
+                  const quantidade =
+                      this.inimigosPorOnda + (proximaOnda - 1) * 2;
+
+                  const sala = rooms.current;
+
+                  const obstaculos = (
+                      templates.list['Obstaculo'] || []
+                  ).filter(o => templates.valid(o) && !o.kill);
+
+                  const margem = 36;
+
+                  const areas = obstaculos.map(o => {
+                      const b = o.getBounds();
+
+                      const p1 = sala.toLocal(
+                          new PIXI.Point(b.x, b.y)
+                      );
+
+                      const p2 = sala.toLocal(
+                          new PIXI.Point(
+                              b.x + b.width,
+                              b.y + b.height
+                          )
+                      );
+
+                      return {
+                          esquerda: Math.min(p1.x, p2.x) - margem,
+                          direita: Math.max(p1.x, p2.x) + margem,
+                          topo: Math.min(p1.y, p2.y) - margem,
+                          baixo: Math.max(p1.y, p2.y) + margem
+                      };
+                  });
+
+                  const foraObstaculos = (x, y) =>
+                      !areas.some(a =>
+                          x >= a.esquerda &&
+                          x <= a.direita &&
+                          y >= a.topo &&
+                          y <= a.baixo
+                      );
+
+                  const tamanhoCelula = 32;
+                  const colunas = 40;
+                  const linhas = 23;
+                  const total = colunas * linhas;
+
+                  const indiceMapa = (x, y) => y * colunas + x;
+
+                  const dentroMapa = (x, y) =>
+                      x >= 0 && x < colunas &&
+                      y >= 0 && y < linhas;
+
+                  const coordX = x => Math.max(
+                      0,
+                      Math.min(colunas - 1, Math.floor(x / tamanhoCelula))
+                  );
+
+                  const coordY = y => Math.max(
+                      0,
+                      Math.min(linhas - 1, Math.floor(y / tamanhoCelula))
+                  );
+
+                  const livres = new Uint8Array(total);
+
+                  for (let gy = 0; gy < linhas; gy++) {
+                      for (let gx = 0; gx < colunas; gx++) {
+                          const x = gx * tamanhoCelula + 16;
+                          const y = gy * tamanhoCelula + 16;
+
+                          const valido =
+                              x >= 52 && x <= 1228 &&
+                              y >= 52 && y <= 668 &&
+                              foraObstaculos(x, y);
+
+                          livres[indiceMapa(gx, gy)] = valido ? 1 : 0;
+                      }
+                  }
+
+                  let origem = -1;
+                  let menorDistancia = Infinity;
+
+                  for (let gy = 0; gy < linhas; gy++) {
+                      for (let gx = 0; gx < colunas; gx++) {
+                          const i = indiceMapa(gx, gy);
+
+                          if (!livres[i]) {
+                              continue;
+                          }
+
+                          const x = gx * tamanhoCelula + 16;
+                          const y = gy * tamanhoCelula + 16;
+
+                          const d = Math.hypot(
+                              x - jogador.x,
+                              y - jogador.y
+                          );
+
+                          if (d < menorDistancia) {
+                              menorDistancia = d;
+                              origem = i;
+                          }
+                      }
+                  }
+
+                  const acessiveis = new Uint8Array(total);
+
+                  if (origem >= 0) {
+                      const fila = new Int32Array(total);
+                      let inicio = 0;
+                      let fim = 0;
+
+                      fila[fim++] = origem;
+                      acessiveis[origem] = 1;
+
+                      const direcoes = [
+                          [1, 0], [-1, 0],
+                          [0, 1], [0, -1]
+                      ];
+
+                      while (inicio < fim) {
+                          const atual = fila[inicio++];
+                          const cx = atual % colunas;
+                          const cy = Math.floor(atual / colunas);
+
+                          for (const [dx, dy] of direcoes) {
+                              const nx = cx + dx;
+                              const ny = cy + dy;
+
+                              if (!dentroMapa(nx, ny)) {
+                                  continue;
+                              }
+
+                              const ni = indiceMapa(nx, ny);
+
+                              if (!livres[ni] || acessiveis[ni]) {
+                                  continue;
+                              }
+
+                              acessiveis[ni] = 1;
+                              fila[fim++] = ni;
+                          }
+                      }
+                  }
+
+                  const posicoesEscolhidas = [];
+
+                  const distanciaMinimaJogador = 170;
+                  const distanciaMinimaZumbis = 55;
+
+                  const posicaoLivre = (x, y) => {
+                      if (
+                          x < 70 || x > 1210 ||
+                          y < 70 || y > 650
+                      ) {
+                          return false;
+                      }
+
+                      if (!foraObstaculos(x, y)) {
+                          return false;
+                      }
+
+                      const i = indiceMapa(coordX(x), coordY(y));
+
+                      if (!livres[i] || !acessiveis[i]) {
+                          return false;
+                      }
+
+                      if (
+                          Math.hypot(
+                              x - jogador.x,
+                              y - jogador.y
+                          ) < distanciaMinimaJogador
+                      ) {
+                          return false;
+                      }
+
+                      for (const p of posicoesEscolhidas) {
+                          if (
+                              Math.hypot(x - p.x, y - p.y) <
+                              distanciaMinimaZumbis
+                          ) {
+                              return false;
+                          }
+                      }
+
+                      const existentes = templates.list['Zumbi'] || [];
+
+                      for (const outro of existentes) {
+                          if (
+                              !templates.valid(outro) ||
+                              outro.kill ||
+                              outro.morrendo ||
+                              outro.vida <= 0
+                          ) {
+                              continue;
+                          }
+
+                          if (
+                              Math.hypot(
+                                  x - outro.x,
+                                  y - outro.y
+                              ) < distanciaMinimaZumbis
+                          ) {
+                              return false;
+                          }
+                      }
+
+                      return true;
+                  };
+
+                  const zonas = [
+                      {
+                          nome: 'ESQUERDA',
+                          minX: 110, maxX: 420,
+                          minY: 410, maxY: 535
+                      },
+                      {
+                          nome: 'CENTRO_ESQUERDA',
+                          minX: 390, maxX: 590,
+                          minY: 385, maxY: 585
+                      },
+                      {
+                          nome: 'SUPERIOR',
+                          minX: 510, maxX: 1010,
+                          minY: 305, maxY: 375
+                      },
+                      {
+                          nome: 'INFERIOR',
+                          minX: 650, maxX: 1080,
+                          minY: 560, maxY: 625
+                      },
+                      {
+                          nome: 'DIREITA',
+                          minX: 1020, maxX: 1170,
+                          minY: 350, maxY: 570
+                      }
+                  ];
+
+                  const candidatosPorZona = zonas.map(zona => {
+                      const candidatos = [];
+
+                      for (
+                          let y = zona.minY;
+                          y <= zona.maxY;
+                          y += 16
+                      ) {
+                          for (
+                              let x = zona.minX;
+                              x <= zona.maxX;
+                              x += 16
+                          ) {
+                              if (posicaoLivre(x, y)) {
+                                  candidatos.push({
+                                      x,
+                                      y,
+                                      zona: zona.nome
+                                  });
+                              }
+                          }
+                      }
+
+                      embaralhar(candidatos);
+
+                      return {
+                          nome: zona.nome,
+                          candidatos,
+                          indiceAtual: 0,
+                          criados: 0
+                      };
+                  });
+
+                  let criados = 0;
+
+                  const zonasDisponiveis = candidatosPorZona.filter(
+                      z => z.candidatos.length > 0
+                  );
+
+                  const rotacao = zonasDisponiveis.length
+                      ? (proximaOnda - 1) % zonasDisponiveis.length
+                      : 0;
+
+                  const ordemZonas = [
+                      ...zonasDisponiveis.slice(rotacao),
+                      ...zonasDisponiveis.slice(0, rotacao)
+                  ];
+
+                  let houveProgresso = true;
+
+                  while (criados < quantidade && houveProgresso) {
+                      houveProgresso = false;
+
+                      for (const zona of ordemZonas) {
+                          if (criados >= quantidade) {
+                              break;
+                          }
+
+                          let posicao = null;
+
+                          while (
+                              zona.indiceAtual < zona.candidatos.length
+                          ) {
+                              const candidato =
+                                  zona.candidatos[zona.indiceAtual++];
+
+                              if (posicaoLivre(candidato.x, candidato.y)) {
+                                  posicao = candidato;
+                                  break;
+                              }
+                          }
+
+                          if (!posicao) {
+                              continue;
+                          }
+
+                          posicoesEscolhidas.push(posicao);
+
+                          const zumbi = templates.copy(
+                              'Zumbi',
+                              posicao.x,
+                              posicao.y
+                          );
+
+                          zumbi.vidaMaxima =
+                              40 + (proximaOnda - 1) * 10;
+
+                          zumbi.vida = zumbi.vidaMaxima;
+
+                          zumbi.dano =
+                              10 + (proximaOnda - 1) * 2;
+
+                          zumbi.velocidade = Math.min(
+                              90 + (proximaOnda - 1) * 3,
+                              180
+                          );
+
+                          criados++;
+                          zona.criados++;
+                          houveProgresso = true;
+                      }
+                  }
+
+                  if (criados === 0) {
+                      this.estado = 'intervalo';
+                      this.proximaOndaEm = agora + this.intervaloOndas;
+                  } else {
+                      this.onda = proximaOnda;
+                      this.estado = 'combate';
+                      this.observouInimigos = true;
+                      this.inicioOndaEm = agora;
+                  }
+
+                  return;
+              }
+
+              if (this.estado === 'combate') {
+                  if (zumbisVivos.length > 0) {
+                      this.observouInimigos = true;
+                  }
+
+                  const tempoMinimo =
+                      agora - this.inicioOndaEm >= 300;
+
+                  if (
+                      this.observouInimigos &&
+                      tempoMinimo &&
+                      zumbisVivos.length === 0
+                  ) {
+                      const moedas = templates.list['Moeda'] || [];
+
+                      for (const moeda of moedas) {
+                          if (
+                              templates.valid(moeda) &&
+                              !moeda.kill &&
+                              !moeda.coletada
+                          ) {
+                              jogador.moedas += moeda.valor;
+                              moeda.coletada = true;
+                              moeda.kill = true;
+                          }
+                      }
+
+                      const disponiveis = [
+                          ...this.melhoriasDisponiveis
+                      ];
+
+                      embaralhar(disponiveis);
+
+                      this.opcoesMelhoria = disponiveis.slice(0, 3);
+                      this.estado = 'escolha';
+                  }
+              }
+            arguments: {}
+          - eventKey: OnCreate
+            code: |
+
+              this.onda = 0;
+              this.inimigosPorOnda = 3;
+              this.intervaloOndas = 3000;
+
+              this.estado = 'aguardando';
+              this.proximaOndaEm = Date.now() + 1000;
+
+              this.observouInimigos = false;
+              this.inicioOndaEm = 0;
+
+              this.melhoriasDisponiveis = [
+                  {
+                      id: 'dano',
+                      nome: 'DANO +5',
+                      preco: 15
+                  },
+                  {
+                      id: 'movimento',
+                      nome: 'VELOCIDADE +20',
+                      preco: 10
+                  },
+                  {
+                      id: 'vida',
+                      nome: 'VIDA MAXIMA +20',
+                      preco: 20
+                  },
+                  {
+                      id: 'projetil',
+                      nome: 'VELOCIDADE DE PROJETIL +75',
+                      preco: 15
+                  },
+                  {
+                      id: 'visao',
+                      nome: 'CAMPO DE VISAO +1',
+                      preco: 15
+                  }
+              ];
+
+              this.opcoesMelhoria = [];
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1795397587212
+        uid: j1P8f6c1cnnn97
+        behaviors: []
+        extendTypes: ''
+        defaultText: ''
+        textStyle: -1
+      - type: template
+        baseClass: AnimatedSprite
+        name: Cenario
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+          - eventKey: OnCreate
+            code: |
+              sounds.stop('musica_jogo');
+
+              sounds.play('musica_jogo', {
+                  loop: true,
+                  volume: 0.15
+              });
+            arguments: {}
+            lib: core
+          - eventKey: OnDestroy
+            code: |
+
+              sounds.stop('musica_jogo');
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1795397861443
+        uid: t7P3933Prn472W
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: KitMedico
+        depth: 0
+        texture: whJ4Nbdbzc5Pm5
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: |
+
+              if (rooms.current.paused || this.coletado) {
+                  return;
+              }
+
+              const jogador = place.meet(this, 'Jogador');
+
+              if (!jogador || !templates.valid(jogador)) {
+                  return;
+              }
+
+              if (jogador.vida <= 0) {
+                  return;
+              }
+
+              if (jogador.vida >= jogador.vidaMaxima) {
+                  return;
+              }
+
+              jogador.vida = Math.min(
+                  jogador.vida + this.cura,
+                  jogador.vidaMaxima
+              );
+
+              this.coletado = true;
+
+              sounds.play('som_medkit', {
+                  volume: 0.05
+              });
+
+              this.kill = true;
+            arguments: {}
+          - eventKey: OnCreate
+            code: |
+
+              this.cura = 20;
+              this.coletado = false;
+              this.hspeed = 0;
+              this.vspeed = 0;
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1795397511138
+        uid: w5GfBKFnqBKKqB
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: Moeda
+        depth: 0
+        texture: 6d7TTqMzbC8rR5
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 60
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: |
+
+              if (rooms.current.paused || this.coletada) {
+                  return;
+              }
+
+              const jogadores = templates.list['Jogador'] || [];
+
+              const jogador = jogadores.find(
+                  j => templates.valid(j) && j.vida > 0
+              );
+
+              if (!jogador) {
+                  return;
+              }
+
+              const dx = jogador.x - this.x;
+              const dy = jogador.y - this.y;
+              const distancia = Math.hypot(dx, dy);
+
+              if (distancia <= this.raioAtracao) {
+                  this.sendoAtraida = true;
+              }
+
+              if (this.sendoAtraida && distancia > 0) {
+                  this.velocidadeAtual = Math.min(
+                      this.velocidadeAtual +
+                      this.aceleracao * u.time,
+                      this.velocidadeMaxima
+                  );
+
+                  this.hspeed =
+                      dx / distancia * this.velocidadeAtual;
+
+                  this.vspeed =
+                      dy / distancia * this.velocidadeAtual;
+
+                  this.move();
+
+                  const distanciaFinal = Math.hypot(
+                      jogador.x - this.x,
+                      jogador.y - this.y
+                  );
+
+                  if (distanciaFinal <= this.distanciaColeta) {
+                      jogador.moedas += this.valor;
+
+                      sounds.play('som_moeda', {
+                          volume: 0.05
+                      });
+
+                      this.coletada = true;
+                      this.kill = true;
+                  }
+              }
+            arguments: {}
+          - eventKey: OnCreate
+            code: |
+
+              this.valor = 1;
+              this.coletada = false;
+
+              this.raioAtracao = 180;
+              this.distanciaColeta = 8;
+
+              this.velocidadeAtual = 0;
+              this.velocidadeMaxima = 220;
+              this.aceleracao = 350;
+
+              this.sendoAtraida = false;
+
+              this.hspeed = 0;
+              this.vspeed = 0;
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: circular
+          'editor:myCollidingCGroups':
+            - ''
+        lastmod: 1795397522560
+        uid: J85nHDQdmCR3kq
+        behaviors: []
+        extendTypes: ''
+        tilingSettings:
+          scrollSpeedX: 0
+          scrollSpeedY: 0
+          pixelPerfect: false
+          isUi: false
+        repeaterSettings:
+          defaultCount: 3
+      - type: template
+        baseClass: AnimatedSprite
+        name: Projetil
+        depth: 0
+        texture: 3CnmjDpf4k3Pw3
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: |
+
+              if (rooms.current.paused) {
+                  return;
+              }
+
+              this.angle = this.direction;
+              this.move();
+
+              const obstaculo = place.meet(this, 'Obstaculo');
+
+              if (obstaculo) {
+                  this.kill = true;
+                  return;
+              }
+
+              const zumbi = place.meet(this, 'Zumbi');
+
+              if (
+                  zumbi &&
+                  templates.valid(zumbi) &&
+                  !zumbi.kill &&
+                  !zumbi.morrendo &&
+                  zumbi.vida > 0
+              ) {
+                  zumbi.vida -= this.dano;
+
+                  zumbi.piscarAte =
+                      Date.now() + zumbi.duracaoPiscar;
+
+                  if (zumbi.vida <= 0) {
+                      zumbi.vida = 0;
+                      zumbi.morrendo = true;
+
+                      sounds.play('som_morte_zumbi', {
+                          volume: 0.05
+                      });
+
+                      zumbi.tempoMorte = 0;
+                      zumbi.anguloInicialMorte = zumbi.angle;
+                      zumbi.hspeed = 0;
+                      zumbi.vspeed = 0;
+
+                      const obstaculos = (
+                          templates.list['Obstaculo'] || []
+                      ).filter(o => templates.valid(o) && !o.kill);
+
+                      const areasBloqueadas = obstaculos.map(o => {
+                          const b = o.getBounds();
+
+                          return {
+                              esquerda: b.x,
+                              direita: b.x + b.width,
+                              topo: b.y,
+                              baixo: b.y + b.height
+                          };
+                      });
+
+                      const posicaoLivre = (x, y, margem = 20) => {
+                          if (
+                              x < 35 || x > 1245 ||
+                              y < 35 || y > 685
+                          ) {
+                              return false;
+                          }
+
+                          for (const area of areasBloqueadas) {
+                              if (
+                                  x >= area.esquerda - margem &&
+                                  x <= area.direita + margem &&
+                                  y >= area.topo - margem &&
+                                  y <= area.baixo + margem
+                              ) {
+                                  return false;
+                              }
+                          }
+
+                          return true;
+                      };
+
+                      const encontrarPosicaoLivre = (
+                          origemX,
+                          origemY,
+                          distanciaMinima,
+                          distanciaMaxima,
+                          margem
+                      ) => {
+                          for (let tentativa = 0; tentativa < 100; tentativa++) {
+                              const angulo = Math.random() * Math.PI * 2;
+
+                              const distancia =
+                                  distanciaMinima +
+                                  Math.random() *
+                                  (distanciaMaxima - distanciaMinima);
+
+                              const x =
+                                  origemX + Math.cos(angulo) * distancia;
+
+                              const y =
+                                  origemY + Math.sin(angulo) * distancia;
+
+                              if (posicaoLivre(x, y, margem)) {
+                                  return { x, y };
+                              }
+                          }
+
+                          for (
+                              let raio = distanciaMinima;
+                              raio <= distanciaMaxima + 100;
+                              raio += 20
+                          ) {
+                              for (
+                                  let angulo = 0;
+                                  angulo < Math.PI * 2;
+                                  angulo += Math.PI / 8
+                              ) {
+                                  const x =
+                                      origemX + Math.cos(angulo) * raio;
+
+                                  const y =
+                                      origemY + Math.sin(angulo) * raio;
+
+                                  if (posicaoLivre(x, y, margem)) {
+                                      return { x, y };
+                                  }
+                              }
+                          }
+
+                          return null;
+                      };
+
+                      const quantidadeMoedas =
+                          Math.floor(Math.random() * 3) + 1;
+
+                      for (let i = 0; i < quantidadeMoedas; i++) {
+                          const posicao = encontrarPosicaoLivre(
+                              zumbi.x, zumbi.y,
+                              35, 100, 15
+                          );
+
+                          if (posicao) {
+                              templates.copy(
+                                  'Moeda',
+                                  posicao.x,
+                                  posicao.y
+                              );
+                          } else {
+                              console.warn(
+                                  'Nao foi possivel criar moeda em posicao livre.'
+                              );
+                          }
+                      }
+
+                      const jogadores =
+                          templates.list['Jogador'] || [];
+
+                      const jogador = jogadores.find(
+                          j => templates.valid(j)
+                      );
+
+                      if (jogador) {
+                          jogador.pontos += zumbi.pontosAoMorrer;
+                      }
+
+                      if (Math.random() < 0.07) {
+                          const posicaoKit = encontrarPosicaoLivre(
+                              zumbi.x, zumbi.y,
+                              40, 150, 25
+                          );
+
+                          if (posicaoKit) {
+                              templates.copy(
+                                  'KitMedico',
+                                  posicaoKit.x,
+                                  posicaoKit.y
+                              );
+                          } else {
+                              console.warn(
+                                  'Nenhuma posicao livre encontrada para o kit.'
+                              );
+                          }
+                      }
+                  }
+
+                  this.kill = true;
+
+              } else if (
+                  this.x < -40 ||
+                  this.x > 1320 ||
+                  this.y < -40 ||
+                  this.y > 760
+              ) {
+                  this.kill = true;
+              }
+            arguments: {}
+          - eventKey: OnCreate
+            code: |-
+              this.speed = 500;
+              this.dano = 20;
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1795397574271
+        uid: bThjTDTzGtRMcm
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: Text
+        name: TelaGameOver
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnCreate
+            code: |
+
+              this.text = '';
+
+              const resultado = ct.ultimaNoiteResultado || {
+                  pontos: 0,
+                  onda: 0,
+                  recorde: 0
+              };
+
+              const criarTexto = (conteudo, tamanho, cor, x, y) => {
+                  const texto = new PIXI.Text(conteudo, {
+                      fontFamily: 'Arial',
+                      fontSize: tamanho,
+                      fontWeight: 'bold',
+                      fill: cor,
+                      align: 'center'
+                  });
+
+                  texto.anchor.set(0.5);
+                  texto.x = x;
+                  texto.y = y;
+
+                  this.addChild(texto);
+                  return texto;
+              };
+
+              const painel = new PIXI.Graphics();
+
+              painel.beginFill(0x273142);
+              painel.lineStyle(2, 0x56627A);
+              painel.drawRoundedRect(340, 100, 600, 520, 18);
+              painel.endFill();
+
+              this.addChild(painel);
+
+              criarTexto(
+                  'GAME OVER',
+                  56,
+                  0xF87171,
+                  640, 175
+              );
+
+              criarTexto(
+                  'A NOITE VENCEU DESTA VEZ...',
+                  20,
+                  0xCBD5E1,
+                  640, 230
+              );
+
+              criarTexto(
+                  'PONTUACAO: ' + resultado.pontos,
+                  28,
+                  0xFFFFFF,
+                  640, 305
+              );
+
+              criarTexto(
+                  'RECORDE: ' + resultado.recorde,
+                  26,
+                  0xFACC15,
+                  640, 355
+              );
+
+              criarTexto(
+                  'ONDA ALCANCADA: ' + resultado.onda,
+                  22,
+                  0xCBD5E1,
+                  640, 405
+              );
+
+              const criarBotao = (nome, y, acao) => {
+                  const botao = new PIXI.Container();
+
+                  botao.x = 460;
+                  botao.y = y;
+
+                  const fundo = new PIXI.Graphics();
+
+                  fundo.beginFill(0x315F83);
+                  fundo.drawRoundedRect(0, 0, 360, 54, 9);
+                  fundo.endFill();
+
+                  botao.addChild(fundo);
+
+                  const texto = new PIXI.Text(nome, {
+                      fontFamily: 'Arial',
+                      fontSize: 20,
+                      fontWeight: 'bold',
+                      fill: 0xFFFFFF
+                  });
+
+                  texto.anchor.set(0.5);
+                  texto.x = 180;
+                  texto.y = 27;
+
+                  botao.addChild(texto);
+
+                  botao.eventMode = 'static';
+                  botao.cursor = 'pointer';
+
+                  botao.hitArea = new PIXI.Rectangle(
+                      0, 0, 360, 54
+                  );
+
+                  botao.on('pointertap', acao);
+
+                  this.addChild(botao);
+                  return botao;
+              };
+
+              criarBotao(
+                  'JOGAR NOVAMENTE',
+                  465,
+                  () => rooms.switch('rm_jogo')
+              );
+
+              criarBotao(
+                  'MENU PRINCIPAL',
+                  535,
+                  () => rooms.switch('rm_menu')
+              );
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1795397555481
+        uid: RK69R3ddKhKp9f
+        behaviors: []
+        extendTypes: ''
+        defaultText: ''
+        textStyle: 2KWWMJk43hLqWJ
+      - type: template
+        baseClass: AnimatedSprite
+        name: Zumbi
+        depth: 0
+        texture: g4J3wD789fdHjC
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: |
+
+              if (rooms.current.paused) {
+                  this.hspeed = 0;
+                  this.vspeed = 0;
+                  return;
+              }
+
+              if (this.morrendo) {
+                  this.hspeed = 0;
+                  this.vspeed = 0;
+                  this.animationSpeed = 0;
+
+                  this.tempoMorte += u.time;
+
+                  const progresso = Math.min(
+                      1,
+                      this.tempoMorte / this.duracaoMorte
+                  );
+
+                  this.angle =
+                      this.anguloInicialMorte + progresso * 75;
+
+                  this.alpha = 1 - progresso;
+                  this.scale.set(0.08 * (1 - progresso * 0.25));
+
+                  if (progresso >= 1) {
+                      this.kill = true;
+                  }
+
+                  return;
+              }
+
+              const jogador = (templates.list['Jogador'] || [])
+                  .find(j => templates.valid(j));
+
+              if (!jogador || jogador.vida <= 0) {
+                  this.hspeed = 0;
+                  this.vspeed = 0;
+                  return;
+              }
+
+              const tamanhoCelula = 32;
+              const colunas = 40;
+              const linhas = 23;
+              const total = colunas * linhas;
+
+              const indice = (x, y) => y * colunas + x;
+
+              const dentro = (x, y) =>
+                  x >= 0 && y >= 0 &&
+                  x < colunas && y < linhas;
+
+              const celulaX = x => Math.max(
+                  0,
+                  Math.min(colunas - 1, Math.floor(x / tamanhoCelula))
+              );
+
+              const celulaY = y => Math.max(
+                  0,
+                  Math.min(linhas - 1, Math.floor(y / tamanhoCelula))
+              );
+
+              const direcoes = [
+                  [1, 0], [-1, 0], [0, 1], [0, -1],
+                  [1, 1], [1, -1], [-1, 1], [-1, -1]
+              ];
+
+              const sala = rooms.current;
+              const agora = Date.now();
+
+              const alvoX = celulaX(jogador.x);
+              const alvoY = celulaY(jogador.y);
+
+              const cache = sala.mapaNavegacaoZumbis;
+
+              const precisaAtualizar =
+                  !cache ||
+                  agora - cache.atualizadoEm > 450 ||
+                  cache.alvoX !== alvoX ||
+                  cache.alvoY !== alvoY;
+
+              if (precisaAtualizar) {
+                  const livre = new Uint8Array(total);
+                  livre.fill(1);
+
+                  const obstaculos = (
+                      templates.list['Obstaculo'] || []
+                  ).filter(o => templates.valid(o) && !o.kill);
+
+                  const margem = 24;
+
+                  for (const obstaculo of obstaculos) {
+                      const b = obstaculo.getBounds();
+
+                      const p1 = sala.toLocal(
+                          new PIXI.Point(b.x, b.y)
+                      );
+
+                      const p2 = sala.toLocal(
+                          new PIXI.Point(
+                              b.x + b.width,
+                              b.y + b.height
+                          )
+                      );
+
+                      const esquerda = Math.min(p1.x, p2.x) - margem;
+                      const direita = Math.max(p1.x, p2.x) + margem;
+                      const topo = Math.min(p1.y, p2.y) - margem;
+                      const baixo = Math.max(p1.y, p2.y) + margem;
+
+                      const minX = celulaX(esquerda);
+                      const maxX = celulaX(direita);
+                      const minY = celulaY(topo);
+                      const maxY = celulaY(baixo);
+
+                      for (let gy = minY; gy <= maxY; gy++) {
+                          for (let gx = minX; gx <= maxX; gx++) {
+                              const cx = gx * tamanhoCelula + 16;
+                              const cy = gy * tamanhoCelula + 16;
+
+                              if (
+                                  cx >= esquerda &&
+                                  cx <= direita &&
+                                  cy >= topo &&
+                                  cy <= baixo
+                              ) {
+                                  livre[indice(gx, gy)] = 0;
+                              }
+                          }
+                      }
+                  }
+
+                  const distancias = new Int32Array(total);
+                  distancias.fill(-1);
+
+                  let origemX = alvoX;
+                  let origemY = alvoY;
+
+                  if (!livre[indice(origemX, origemY)]) {
+                      let melhor = Infinity;
+
+                      for (let y = 0; y < linhas; y++) {
+                          for (let x = 0; x < colunas; x++) {
+                              if (!livre[indice(x, y)]) {
+                                  continue;
+                              }
+
+                              const d =
+                                  (x - alvoX) ** 2 +
+                                  (y - alvoY) ** 2;
+
+                              if (d < melhor) {
+                                  melhor = d;
+                                  origemX = x;
+                                  origemY = y;
+                              }
+                          }
+                      }
+                  }
+
+                  const fila = [];
+                  let inicioFila = 0;
+
+                  const origem = indice(origemX, origemY);
+
+                  if (livre[origem]) {
+                      distancias[origem] = 0;
+                      fila.push([origemX, origemY]);
+                  }
+
+                  while (inicioFila < fila.length) {
+                      const [x, y] = fila[inicioFila++];
+
+                      const distanciaAtual =
+                          distancias[indice(x, y)];
+
+                      for (const [dx, dy] of direcoes) {
+                          const nx = x + dx;
+                          const ny = y + dy;
+
+                          if (!dentro(nx, ny)) {
+                              continue;
+                          }
+
+                          const ni = indice(nx, ny);
+
+                          if (!livre[ni] || distancias[ni] !== -1) {
+                              continue;
+                          }
+
+                          if (dx !== 0 && dy !== 0) {
+                              if (
+                                  !livre[indice(x + dx, y)] ||
+                                  !livre[indice(x, y + dy)]
+                              ) {
+                                  continue;
+                              }
+                          }
+
+                          distancias[ni] = distanciaAtual + 1;
+                          fila.push([nx, ny]);
+                      }
+                  }
+
+                  sala.mapaNavegacaoZumbis = {
+                      atualizadoEm: agora,
+                      alvoX,
+                      alvoY,
+                      livre,
+                      distancias
+                  };
+              }
+
+              const mapa = sala.mapaNavegacaoZumbis;
+
+              const dx = jogador.x - this.x;
+              const dy = jogador.y - this.y;
+              const distanciaJogador = Math.hypot(dx, dy);
+
+              let moverX = 0;
+              let moverY = 0;
+
+              if (distanciaJogador > 20) {
+                  moverX = dx / distanciaJogador;
+                  moverY = dy / distanciaJogador;
+
+                  const zx = celulaX(this.x);
+                  const zy = celulaY(this.y);
+                  const distanciaAtual = mapa.distancias[indice(zx, zy)];
+
+                  let melhorX = -1;
+                  let melhorY = -1;
+                  let melhorDistancia = Infinity;
+                  let melhorProximidade = Infinity;
+
+                  for (const [dirX, dirY] of direcoes) {
+                      const nx = zx + dirX;
+                      const ny = zy + dirY;
+
+                      if (!dentro(nx, ny)) {
+                          continue;
+                      }
+
+                      const ni = indice(nx, ny);
+                      const dMapa = mapa.distancias[ni];
+
+                      if (!mapa.livre[ni] || dMapa < 0) {
+                          continue;
+                      }
+
+                      if (dirX !== 0 && dirY !== 0) {
+                          if (
+                              !mapa.livre[indice(zx + dirX, zy)] ||
+                              !mapa.livre[indice(zx, zy + dirY)]
+                          ) {
+                              continue;
+                          }
+                      }
+
+                      const destinoX = (nx + 0.5) * tamanhoCelula;
+                      const destinoY = (ny + 0.5) * tamanhoCelula;
+
+                      const proximidade = Math.hypot(
+                          destinoX - this.x,
+                          destinoY - this.y
+                      );
+
+                      const caminhoValido =
+                          distanciaAtual < 0 ||
+                          dMapa < distanciaAtual;
+
+                      if (
+                          caminhoValido &&
+                          (
+                              dMapa < melhorDistancia ||
+                              (
+                                  dMapa === melhorDistancia &&
+                                  proximidade < melhorProximidade
+                              )
+                          )
+                      ) {
+                          melhorDistancia = dMapa;
+                          melhorProximidade = proximidade;
+                          melhorX = destinoX;
+                          melhorY = destinoY;
+                      }
+                  }
+
+                  if (melhorX >= 0) {
+                      this.destinoNavegacaoX = melhorX;
+                      this.destinoNavegacaoY = melhorY;
+
+                      const caminhoX = melhorX - this.x;
+                      const caminhoY = melhorY - this.y;
+                      const d = Math.hypot(caminhoX, caminhoY);
+
+                      if (d > 1) {
+                          moverX = caminhoX / d;
+                          moverY = caminhoY / d;
+                          this.usandoCaminho = true;
+                      }
+                  } else {
+                      this.usandoCaminho = false;
+                  }
+              }
+
+              const zumbis = (templates.list['Zumbi'] || [])
+                  .filter(z =>
+                      templates.valid(z) &&
+                      !z.kill &&
+                      !z.morrendo &&
+                      z.vida > 0
+                  );
+
+              let separarX = 0;
+              let separarY = 0;
+
+              for (const outro of zumbis) {
+                  if (outro === this) {
+                      continue;
+                  }
+
+                  const ox = this.x - outro.x;
+                  const oy = this.y - outro.y;
+                  const d = Math.hypot(ox, oy);
+
+                  if (d > 0 && d < this.raioDeteccao) {
+                      const intensidade =
+                          (this.raioDeteccao - d) / this.raioDeteccao;
+
+                      separarX += ox / d * intensidade;
+                      separarY += oy / d * intensidade;
+                  }
+              }
+
+              moverX += separarX * 0.25;
+              moverY += separarY * 0.25;
+
+              const tamanho = Math.hypot(moverX, moverY);
+
+              if (tamanho > 0 && distanciaJogador > 20) {
+                  this.hspeed = moverX / tamanho * this.velocidade;
+                  this.vspeed = moverY / tamanho * this.velocidade;
+              } else {
+                  this.hspeed = 0;
+                  this.vspeed = 0;
+              }
+
+              this.moveSmart('CenarioSolido');
+
+              this.x = Math.max(26, Math.min(1254, this.x));
+              this.y = Math.max(26, Math.min(694, this.y));
+
+              if (distanciaJogador > 0) {
+                  const angulo = u.pointDirection(
+                      this.x,
+                      this.y,
+                      jogador.x,
+                      jogador.y
+                  );
+
+                  this.angle = angulo - 90;
+              }
+
+              const colisao = place.meet(this, 'Jogador');
+
+              if (colisao) {
+                  const agoraAtaque = Date.now();
+
+                  if (
+                      agoraAtaque - this.ultimoAtaque >=
+                      this.intervaloAtaque
+                  ) {
+                      jogador.vida = Math.max(
+                          0,
+                          jogador.vida - this.dano
+                      );
+
+                      sounds.play('som_dano', {
+                          volume: 0.45
+                      });
+
+                      jogador.piscarAte =
+                          Date.now() + jogador.duracaoPiscar;
+
+                      this.ultimoAtaque = agoraAtaque;
+                  }
+              }
+
+              const agoraVisual = Date.now();
+
+              if (agoraVisual < this.piscarAte) {
+                  const fase = Math.floor(agoraVisual / 70) % 2;
+
+                  this.tint = fase === 0
+                      ? 0xFF5555
+                      : 0xFFFFFF;
+              } else {
+                  this.tint = 0xFFFFFF;
+              }
+            arguments: {}
+          - eventKey: OnCreate
+            code: |
+
+              this.vida = 40;
+              this.vidaMaxima = 40;
+
+              this.velocidade = 90;
+              this.dano = 10;
+              this.pontosAoMorrer = 100;
+
+              this.hspeed = 0;
+              this.vspeed = 0;
+
+              this.ultimoAtaque = 0;
+              this.intervaloAtaque = 1000;
+
+              this.distanciaSeparacao = 35;
+              this.forcaSeparacao = 2.5;
+              this.raioDeteccao = 55;
+
+              this.scale.set(0.08);
+              this.animationSpeed = 0.09;
+              this.loop = true;
+              this.gotoAndPlay(0);
+
+              this.angle = 0;
+              this.tint = 0xFFFFFF;
+
+              this.piscarAte = 0;
+              this.duracaoPiscar = 180;
+
+              this.morrendo = false;
+              this.tempoMorte = 0;
+              this.duracaoMorte = 0.4;
+              this.anguloInicialMorte = 0;
+              this.alpha = 1;
+
+              this.destinoNavegacaoX = this.x;
+              this.destinoNavegacaoY = this.y;
+              this.usandoCaminho = false;
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1795397597859
+        uid: Wc8qB488wMpN3Q
+        behaviors: []
+        extendTypes: ''
+  - type: folder
+    uid: gmC4D5BtCT7m9C
+    colorClass: act
+    icon: ui
+    name: Estilos
+    lastmod: 1795040452070
+    entries:
+      - type: style
+        name: EstiloHud
+        uid: 2KWWMJk43hLqWJ
+        typeface: -1
+        font:
+          family: sans-serif
+          halign: left
+          italic: false
+          size: 24
+          weight: '700'
+          wrap: false
+          wrapPosition: 640
+          lineHeight: 31.96
+        fill:
+          type: 0
+          color: '#FFFFFF'
+          color1: '#cccccc'
+          color2: '#ffffff'
+          gradtype: 1
+        lastmod: 1794253210768
+globalVars: []
+settings:
+  authoring:
+    author: Bruno
+    site: ''
+    title: UltimaNoite
+    version:
+      - 1
+      - 0
+      - 0
+    versionPostfix: ''
+    appId: ''
+  rendering:
+    usePixiLegacy: false
+    transparent: false
+    maxFPS: 60
+    pixelatedrender: true
+    highDensity: true
+    desktopMode: windowed
+    hideCursor: false
+    mobileScreenOrientation: landscape
+    viewMode: scaleFit
+  export:
+    showErrors: true
+    errorsLink: ''
+    autocloseDesktop: true
+    windows: true
+    linux: true
+    mac: true
+    functionWrap: false
+    codeModifier: none
+    bundleAssetTree: false
+    bundleAssetTypes:
+      texture: true
+      template: true
+      room: true
+      behavior: false
+      typeface: false
+      sound: false
+      style: false
+      tandem: false
+      script: false
+      enum: false
+  branding:
+    accent: '#446adb'
+    invertPreloaderScheme: true
+    icon: -1
+    splashScreen: -1
+    forceSmoothIcons: false
+    forceSmoothSplashScreen: false
+    hideLoadingLogo: false
+    alternativeLogo: false
+    customLoadingText: ''
+  fps: 30
+palette: []
